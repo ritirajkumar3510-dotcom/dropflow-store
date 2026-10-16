@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101b16"><title>DropFlow — Your store, simplified</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">D</span> dropflow</a>
+  <nav id="mainNav"><a href="#features">Features</a><a href="#catalog">Explore products</a><a href="#how">How it works</a></nav>
+  <div class="top-actions"><button class="ghost" id="loginBtn">Log in</button><button class="primary small" id="startBtn">Start free</button><button class="cart-button" id="cartOpen" aria-label="Open cart">Bag <span id="cartCount">0</span></button></div>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> THE ALL-IN-ONE DROPSHIPPING TOOL</div>
+  <h1>Your store.<br><span>Your rules.</span></h1>
+  <p class="hero-lede">Find products, build your storefront, and organize orders — all from one clean workspace.</p>
+  <div class="hero-actions"><button class="primary" id="heroStart">Build my store <span>↗</span></button><a class="text-link" href="#catalog">Explore demo store <span>↓</span></a></div>
+  <div class="proof"><div class="avatars"><span>R</span><span>A</span><span>M</span></div><div><strong>Made for first-time founders</strong><small>Start small. Learn as you grow.</small></div></div>
+  </div>
+  <div class="hero-art"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="dashboard-card">
+    <div class="dash-top"><div><small>STORE OVERVIEW</small><h3>Good morning, creator <span>✳</span></h3></div><span class="live-pill">● Demo data</span></div>
+    <div class="stat-grid"><div class="stat"><small>Total sales</small><strong>₹24,580</strong><em>↗ 12.8%</em></div><div class="stat"><small>Orders</small><strong>128</strong><em>↗ 8.2%</em></div></div>
+    <div class="chart-head"><span>Store activity</span><small>Last 7 days</small></div><div class="chart"><div class="chart-grid"></div><svg viewBox="0 0 440 120" preserveAspectRatio="none" aria-label="Illustrative sales chart"><defs><linearGradient id="fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#b6f36b" stop-opacity=".35"/><stop offset="100%" stop-color="#b6f36b" stop-opacity="0"/></linearGradient></defs><path d="M0,92 C30,82 40,90 65,65 S105,78 135,52 S180,73 210,45 S255,56 285,31 S325,49 350,20 S400,31 440,7 L440,120 L0,120Z" fill="url(#fill)"/><path d="M0,92 C30,82 40,90 65,65 S105,78 135,52 S180,73 210,45 S255,56 285,31 S325,49 350,20 S400,31 440,7" fill="none" stroke="#a8ed61" stroke-width="3" stroke-linecap="round"/></svg></div><div class="chart-labels"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+  </div><div class="float-tag tag-one">✦ Product imported</div><div class="float-tag tag-two"><span class="tiny-check">✓</span> Store looks good!</div></div>
+</section>
+<div class="trust-strip"><span>ONE WORKSPACE, LESS BUSYWORK</span><div><b>PRODUCTS</b><i>✳</i><b>STOREFRONT</b><i>✳</i><b>ORDERS</b><i>✳</i><b>GROWTH</b></div></div>
+<section class="section" id="features"><div class="section-heading"><div><div class="eyebrow dark">BUILT FOR YOUR NEXT BIG IDEA</div><h2>Everything in one place.<br><span>Nothing in your way.</span></h2></div><p>Skip the scattered tools. Keep the essentials together while you get your first store off the ground.</p></div>
+<div class="feature-grid"><article class="feature-card"><div class="feature-icon green">⌕</div><h3>Discover products</h3><p>Explore sample products, compare costs, and shortlist what fits your store.</p><a href="#catalog">Browse the catalog ↗</a></article><article class="feature-card"><div class="feature-icon peach">▧</div><h3>Build your storefront</h3><p>Give your brand a home with product cards, clear pricing, and a polished layout.</p><a href="#catalog">Preview storefront ↗</a></article><article class="feature-card"><div class="feature-icon lilac">↗</div><h3>Keep orders organized</h3><p>Track demo orders and manage your workflow without losing the details.</p><a href="#how">See how it works ↗</a></article></div>
+</section>
+<section class="catalog-section" id="catalog"><div class="section-heading catalog-heading"><div><div class="eyebrow dark">THE DEMO MARKETPLACE</div><h2>Good finds. <span>Fresh ideas.</span></h2></div><p>Sample products to test the shopping flow. These are demo listings, not verified supplier offers.</p></div>
+<div class="catalog-tools"><div class="searchbox"><span>⌕</span><input id="searchInput" placeholder="Search products..." aria-label="Search products"></div><div class="filters" id="filters"><button class="filter active" data-category="All">All products</button><button class="filter" data-category="Home">Home</button><button class="filter" data-category="Tech">Tech</button><button class="filter" data-category="Lifestyle">Lifestyle</button></div><select id="sortSelect" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div>
+<div class="product-grid" id="productGrid"></div>
+</section>
+<section class="how-section" id="how"><div class="how-left"><div class="eyebrow">YOUR IDEA, IN MOTION</div><h2>From “what if?”<br>to <span>your first order.</span></h2><p>A simple starting point for learning how a dropshipping store works.</p><button class="primary" id="howStart">Create your demo store ↗</button></div><div class="steps"><div class="step"><div class="step-num">01</div><div><h3>Choose your products</h3><p>Browse sample listings and add products to your bag.</p></div><span>↗</span></div><div class="step"><div class="step-num">02</div><div><h3>Shape your store</h3><p>Pick a niche, set your prices, and create a brand customers understand.</p></div><span>↗</span></div><div class="step"><div class="step-num">03</div><div><h3>Connect real operations</h3><p>Before launch, connect verified suppliers, payments, shipping, and policies.</p></div><span>↗</span></div></div></section>
+<section class="cta"><div><div class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</div><h2>Small start.<br><span>Big possibilities.</span></h2><p>Try the interactive demo — no account or payment required.</p></div><button class="primary" id="ctaStart">Try the demo <span>↗</span></button></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">D</span> dropflow</a><p>A learning demo for your next store idea.</p><div><a href="#features">Features</a><a href="#catalog">Products</a><a href="#how">How it works</a></div><small>© 2026 DropFlow Demo. Not affiliated with Shopify or any supplier.</small></footer>
+<div class="overlay" id="overlay"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true"><div class="drawer-head"><div><small>YOUR SELECTION</small><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="icon-btn" id="cartClose" aria-label="Close cart">✕</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">₹0</strong></div><p>Demo only — checkout and payments are not connected.</p><button class="primary full" id="checkoutBtn">Continue to demo checkout ↗</button></div></aside>
+<div class="modal-wrap" id="modalWrap" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><button class="icon-btn modal-x" id="modalClose" aria-label="Close">✕</button><div class="eyebrow dark">DROPFlow WORKSPACE</div><h2 id="modalTitle">Let's start your store.</h2><p id="modalIntro">This demo helps you explore the basics before connecting real services.</p><form id="storeForm"><label for="storeName">Store name</label><input id="storeName" name="storeName" maxlength="48" placeholder="e.g. Urban Nest" required><label for="storeNiche">What will you sell?</label><select id="storeNiche" name="storeNiche" required><option value="">Choose a niche</option><option>Home & living</option><option>Tech accessories</option><option>Lifestyle</option><option>Beauty & personal care</option><option>Mixed products</option></select><button class="primary full" type="submit">Create demo workspace ↗</button></form><div id="formSuccess" class="success" hidden></div><small class="fine-print">No account is created. Your details stay in this browser session only.</small></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div><script src="app.js"></script>
+</body></html>
